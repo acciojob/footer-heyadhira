@@ -24,12 +24,16 @@ footer {
 }
 
 /* Social Media Icons */
+.media-icons {
+  display: flex;  /* Ensure it is flex */
+  align-items: center;
+  gap: 15px;
+}
+
 .media-icons a {
   color: white;
   font-size: 20px;
-  margin-right: 15px;
   transition: 0.3s;
-   display:flex;
 }
 
 .media-icons a:hover {
